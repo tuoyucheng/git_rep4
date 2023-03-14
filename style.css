@@ -8,7 +8,7 @@ html {
 
 body {
   font-family: "Arial", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Meiryo", sans-serif;
-  font-size: 0.875rem;
+  font-size: 1rem;
   color: #2a2a2a;
 }
 
@@ -29,23 +29,23 @@ li {
 }
 
 .wrapper {
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
   padding: 0 5%;
 }
 
 .sec-title {
-  font-size: 1.5rem;
-  margin-bottom: 20px;
+  font-size: 2rem;
+  margin-bottom: 30px;
 }
 
 .btn {
   color: #2a2a2a;
   border: solid 1px #2a2a2a;
   display: inline-block;
-  font-size: 0.750rem;
-  padding: 14px 36px;
-  margin-top: 30px;
+  font-size: 1rem;
+  padding: 18px 40px;
+  margin-top: 35px;
 }
 
 /*-------------------------------------------
@@ -64,8 +64,8 @@ li {
 
 #header .site-title {
   position: absolute;
-  top: 30px;
-  right: 30px;
+  top: 35px;
+  right: 35px;
 }
 
 /*-------------------------------------------
@@ -73,13 +73,13 @@ Magazine
 -------------------------------------------*/
 #magazine {
   text-align: center;
-  margin-bottom: 80px;
+  margin-bottom: 90px;
 }
 
 #magazine .flex-item {
   display: flex;
   justify-content: space-between;
-  margin-top: 40px;
+  margin-top: 45px;
 }
 
 #magazine .flex-item .item {
@@ -88,11 +88,11 @@ Magazine
 }
 
 #magazine .flex-item .item .text {
-  max-width: 290px;
+  max-width: 300px;
   color: #fff;
   font-weight: bold;
   background-color: rgba(0, 0, 0, 0.5);
-  padding: 15px 0;
+  padding: 20px 0;
   margin: 0 auto;
   position: absolute;
   top: 40%;
@@ -102,21 +102,21 @@ Magazine
 
 #magazine .flex-item .item .title {
   font-size: 1.25rem;
-  margin-bottom: 2px;
+  margin-bottom: 4px;
 }
 
 /*-------------------------------------------
 Fashion
 -------------------------------------------*/
 #fashion {
-  height: 520px;
+  height: 550px;
   background-image: url(../img/fashion.jpg);
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
   text-align: center;
-  padding-top: 60px;
-  margin-bottom: 80px;
+  padding-top: 70px;
+  margin-bottom: 90px;
 }
 
 /*-------------------------------------------
@@ -124,11 +124,11 @@ Catalog & Antique
 -------------------------------------------*/
 .catalog-antique {
   background-color: #f5f5f5;
-  padding: 60px 0;
+  padding: 70px 0;
 }
 
 .catalog-antique .sec-title {
-  margin-bottom: 40px;
+  margin-bottom: 50px;
 }
 
 .catalog-antique .flex-item {
@@ -147,7 +147,7 @@ Catalog & Antique
 }
 
 .catalog-antique .item p {
-  margin-bottom: 30px;
+  margin-bottom: 40px;
   text-align: left;
 }
 
@@ -167,8 +167,8 @@ Catalog & Antique
   display: flex;
   justify-content: space-between;
   color: #fff;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 150px;
+  padding-bottom: 150px;
 }
 
 #footer .item {
@@ -177,24 +177,24 @@ Catalog & Antique
 }
 
 #footer .item:first-child {
-  padding: 60px 0;
+  padding: 70px 0;
 }
 
 #footer .item li::before {
   content: "-";
-  margin-right: 5px;
+  margin-right: 8px;
 }
 
 #footer .item .title {
-  font-size: 1rem;
+  font-size: 2rem;
   font-weight: bold;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 #footer .copyright {
   background-color: #fff;
   text-align: center;
-  padding: 30px 0;
+  padding: 35px 0;
 }
 
 /*-------------------------------------------
@@ -214,7 +214,7 @@ SP
   }
 
   #magazine .flex-item .item:first-child {
-    margin-bottom: 30px;
+    margin-bottom: 35px;
   }
 
   /*-------------------------------------------
@@ -222,14 +222,14 @@ SP
   -------------------------------------------*/
   #fashion {
     padding-top: 35px;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
   }
 
   /*-------------------------------------------
   Catalog & Antique
   -------------------------------------------*/
   .catalog-antique {
-    padding: 30px 0;
+    padding: 35px 0;
   }
 
   .catalog-antique .flex-item {
@@ -241,7 +241,7 @@ SP
   }
 
   .catalog-antique .item:first-child {
-    margin-bottom: 60px;
+    margin-bottom: 70px;
   }
 
   /*-------------------------------------------
@@ -249,13 +249,13 @@ SP
   -------------------------------------------*/
   #footer .flex-item {
     flex-direction: column;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
 
   #footer .item {
     width: 100%;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
   }
 
   #footer .item:first-child {
