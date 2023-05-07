@@ -48,10 +48,6 @@ li {
   margin-top: 35px;
 }
 
-/*-------------------------------------------
-ヘッダー
--------------------------------------------*/
-
 #header {
   height: 100vh;
   background-image: url(../img/mainvisual.jpg);
@@ -68,9 +64,6 @@ li {
   right: 35px;
 }
 
-/*-------------------------------------------
-Magazine
--------------------------------------------*/
 #magazine {
   text-align: center;
   margin-bottom: 90px;
@@ -105,9 +98,6 @@ Magazine
   margin-bottom: 4px;
 }
 
-/*-------------------------------------------
-Fashion
--------------------------------------------*/
 #fashion {
   height: 550px;
   background-image: url(../img/fashion.jpg);
@@ -119,9 +109,6 @@ Fashion
   margin-bottom: 90px;
 }
 
-/*-------------------------------------------
-Catalog & Antique
--------------------------------------------*/
 .catalog-antique {
   background-color: #f5f5f5;
   padding: 70px 0;
@@ -155,9 +142,6 @@ Catalog & Antique
   margin-bottom: 0;
 }
 
-/*-------------------------------------------
-フッター
--------------------------------------------*/
 #footer {
   background-color: #333;
   font-size: 0.750rem;
@@ -197,14 +181,8 @@ Catalog & Antique
   padding: 35px 0;
 }
 
-/*-------------------------------------------
-SP
--------------------------------------------*/
 @media screen and (max-width: 896px) {
 
-  /*-------------------------------------------
-  Magazine
-  -------------------------------------------*/
   #magazine .flex-item {
     flex-direction: column;
   }
@@ -217,17 +195,11 @@ SP
     margin-bottom: 35px;
   }
 
-  /*-------------------------------------------
-  Fashion
-  -------------------------------------------*/
   #fashion {
     padding-top: 35px;
     margin-bottom: 60px;
   }
 
-  /*-------------------------------------------
-  Catalog & Antique
-  -------------------------------------------*/
   .catalog-antique {
     padding: 35px 0;
   }
@@ -244,9 +216,6 @@ SP
     margin-bottom: 70px;
   }
 
-  /*-------------------------------------------
-  フッター
-  -------------------------------------------*/
   #footer .flex-item {
     flex-direction: column;
     padding-top: 40px;
